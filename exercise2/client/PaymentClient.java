@@ -8,7 +8,6 @@ public class PaymentClient {
     public PaymentClient(PaymentService paymentService) {
         this.paymentService = paymentService;
     }
-
     public void processClientPayment(double amount) {
         System.out.println("Client initiating payment...");
         boolean isSuccess = paymentService.pay(amount);
