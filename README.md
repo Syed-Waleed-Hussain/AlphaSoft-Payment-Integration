@@ -26,7 +26,8 @@ The project is modularized into a base scenario and 5 progressive exercises, eac
 ## 🚀 How to Run
 1. Clone the repository to your local machine:
    ```
-   git clone [https://github.com/Syed-Waleed-Hussain/Payment-System-Adapter-Pattern.git](https://github.com/Syed-Waleed-Hussain/Payment-System-Adapter-Pattern.git)
+   git clone [https://github.com/Syed-Waleed-Hussain/Payment-System-Adapter-Pattern.git]
+   (https://github.com/Syed-Waleed-Hussain/Payment-System-Adapter-Pattern.git)
    
    ```
 Open the project in your preferred Java IDE (IntelliJ IDEA, Eclipse, or VS Code).
