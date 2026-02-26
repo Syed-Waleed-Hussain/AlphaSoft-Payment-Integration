@@ -14,4 +14,5 @@ public class Main {
         PaymentClient client = new PaymentClient(adapter);
         client.processClientPayment(250.0);
     }
+
 }
