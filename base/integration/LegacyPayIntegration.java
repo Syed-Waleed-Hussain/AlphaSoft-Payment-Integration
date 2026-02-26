@@ -13,6 +13,7 @@ public class LegacyPayIntegration implements PaymentService {
     @Override
     public boolean pay(double amount) {
         legacyService.makePayment(amount);
-        return true; 
+        return true;
     }
+
 }
