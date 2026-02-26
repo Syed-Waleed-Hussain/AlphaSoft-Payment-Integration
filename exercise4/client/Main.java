@@ -16,6 +16,7 @@ public class Main {
         PaymentService globalAdapter = new GlobalPayIntegration(new GlobalPayService(), "EUR");
         client.setPaymentProvider(globalAdapter);
         
-        client.processClientPayment(120.0);
+        client.processClientPayment(130.0);
     }
+
 }
