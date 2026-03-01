@@ -4,7 +4,6 @@ import base.core.PaymentService;
 
 public class PaymentClient {
     private PaymentService paymentService;
-
     public PaymentClient(PaymentService paymentService) {
         this.paymentService = paymentService;
     }
@@ -16,4 +15,5 @@ public class PaymentClient {
             System.out.println("Payment completed successfully.");
         }
     }
+
 }
